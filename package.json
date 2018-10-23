@@ -1,0 +1,24 @@
+{
+  "name": "b4f-common",
+  "version": "1.0.0",
+  "description": "Common code for b4f APIs",
+  "main": "./src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jonatassaraiva/b4f-aws-serverless-code-common.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jonatassaraiva/b4f-aws-serverless-code-common/issues"
+  },
+  "homepage": "https://github.com/jonatassaraiva/b4f-aws-serverless-code-common#readme",
+  "dependencies": {
+    "aws-xray-sdk": "^2.0.0",
+    "bluebird": "^3.5.2",
+    "request": "^2.88.0"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "files.exclude": {
+    "node_modules": true,
+    ".serverless": true,
+    ".nyc_output": true,
+    "coverage": true
+  },
+  // https://github.com/vscode-icons/vscode-icons/wiki/ListOfFolders
+  "vsicons.associations.folders": [
+    { "icon": "www", "extensions": ["http"], "format": "svg" },
+    { "icon": "log", "extensions": ["logger"], "format": "svg" },
+    { "icon": "mjml", "extensions": ["middlewares"], "format": "svg" },
+    { "icon": "dist", "extensions": ["builders"], "format": "svg" },
+    { "icon": "config", "extensions": ["configs"], "format": "svg" }
+  ]
+
+}

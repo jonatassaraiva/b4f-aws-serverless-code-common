@@ -1,0 +1,15 @@
+# Markdown
+*.md
+
+# GIT
+.gitignore
+
+# LIT
+.eslintrc
+
+# vscode
+.vscode
+
+# Test
+test/*
+!test/common.test.helper.js
