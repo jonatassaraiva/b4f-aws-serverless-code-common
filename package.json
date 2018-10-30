@@ -10,15 +10,16 @@
     "type": "git",
     "url": "git+https://github.com/jonatassaraiva/b4f-aws-serverless-code-common.git"
   },
-  "author": "",
+  "author": "Jonatas Saraiva",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/jonatassaraiva/b4f-aws-serverless-code-common/issues"
   },
   "homepage": "https://github.com/jonatassaraiva/b4f-aws-serverless-code-common#readme",
   "dependencies": {
-    "aws-xray-sdk": "^2.0.0",
-    "bluebird": "^3.5.2",
     "request": "^2.88.0"
+  },
+  "devDependencies": {
+    "aws-xray-sdk": "^2.0.1"
   }
 }
