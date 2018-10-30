@@ -2,7 +2,6 @@
 
 const bodyBuilder = require('./builders/body.builder');
 
-const workaroundConfig = require('./configs/workaround.config');
 const xRayConfig = require('./configs/xray.config');
 
 const requestHelper = require('./helpers/request.helper');
@@ -15,7 +14,6 @@ module.exports = {
     body: bodyBuilder
   },
   configs: {
-    workaround: workaroundConfig,
     xRay: xRayConfig
   },
   helpers: {
